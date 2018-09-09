@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="101.264117">
+<testcase classname="Registration" name="Verification of Registration" time="54.425485">
+<system-out><![CDATA[Given the user navigates to react login page................................passed
+When the user clicks on the Register link...................................passed
+And the user enters the Mohana in the FirstName Field.......................passed
+And the user enters the Rao in the LastName Field...........................passed
+And the user enters the MohanaRao in the UserName Field.....................passed
+And the user enters the mohanoct28 in the Password Field....................passed
+And the user clicks on Register button......................................passed
+Then the user verify the Registration.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="LoginForm" name="Verification of login using the correct credentials" time="46.838632">
+<system-out><![CDATA[Given the user navigates to react login page................................passed
+When the user enters the mohanrao and mohan.................................passed
+And the user clicks on Login button.........................................passed
+Then verify the user Mohana is correctly displayed once logged in...........passed
+And verify the user Mohana rao appears under the Allregisteredusers list....passed
+]]></system-out>
+</testcase>
+</testsuite>

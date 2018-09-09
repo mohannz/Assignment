@@ -1,0 +1,322 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 41154980833,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageStepDefinition.testSetup(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verification of Registration",
+        "description": "",
+        "id": "registration;verification-of-registration;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2187663250,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageStepDefinition.testShutDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8062116519,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user navigates to react login page",
+            "match": {
+              "location": "LoginPageStepDefinition.the_user_navigates_to_react_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 335618043,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user clicks on the Register link",
+            "match": {
+              "location": "LoginPageStepDefinition.the_user_clicks_on_the_Register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 116655349,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user enters the Mohana in the FirstName Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mohana",
+                  "offset": 20
+                }
+              ],
+              "location": "RegistrationPageStepDefinition.the_user_enters_the_FirstName_in_the_FirstName_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64891868,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user enters the Rao in the LastName Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rao",
+                  "offset": 20
+                }
+              ],
+              "location": "RegistrationPageStepDefinition.the_user_enters_the_LastName_in_the_LastName_Field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97776984,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user enters the MohanaRao in the UserName Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MohanaRao",
+                  "offset": 20
+                }
+              ],
+              "location": "RegistrationPageStepDefinition.the_user_enters_the_UserName_in_the_UserName_Field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78386312,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enters the mohanoct28 in the Password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mohanoct28",
+                  "offset": 20
+                }
+              ],
+              "location": "RegistrationPageStepDefinition.the_user_enters_the_Password_in_the_Password_Field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262647299,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user clicks on Register button",
+            "match": {
+              "location": "RegistrationPageStepDefinition.the_user_clicks_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2064748183,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user verify the Registration",
+            "match": {
+              "location": "RegistrationPageStepDefinition.the_user_verify_the_Registration()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@positivescenario"
+          }
+        ]
+      }
+    ],
+    "name": "Registration",
+    "description": "\r\nThis feature deals with the Register functionality of the application",
+    "id": "registration",
+    "keyword": "Feature",
+    "uri": "Registration.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 36331140708,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageStepDefinition.testSetup(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verification of login using the correct credentials",
+        "description": "",
+        "id": "loginform;verification-of-login-using-the-correct-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1889559040,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageStepDefinition.testShutDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6712394652,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to react login page",
+            "match": {
+              "location": "LoginPageStepDefinition.the_user_navigates_to_react_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 713669859,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user enters the mohanrao and mohan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mohanrao",
+                  "offset": 20
+                },
+                {
+                  "val": "mohan",
+                  "offset": 33
+                }
+              ],
+              "location": "LoginPageStepDefinition.the_user_enters_the_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 282877417,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on Login button",
+            "match": {
+              "location": "LoginPageStepDefinition.the_user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 373468853,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the user Mohana is correctly displayed once logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mohana",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginPageStepDefinition.verify_the_user_s_firstname_is_correctly_displayed_once_logged_in(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 535521056,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the user Mohana rao appears under the Allregisteredusers list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mohana rao",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginPageStepDefinition.verify_the_user_fullname_appears_under_the_Allregisteredusers_list(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@validloginScenario"
+          }
+        ]
+      }
+    ],
+    "name": "LoginForm",
+    "description": "This feature deals with the login functionality of the React+Redux application",
+    "id": "loginform",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
